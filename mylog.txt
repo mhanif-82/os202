@@ -10,7 +10,7 @@ ZCZC W01 120 L21 VirtualBox: install GNU/Linux, etc.
 ZCZC W01 120 L23 Discord(Troubleshot for debian)
 ZCZC W01 180 L05 GSGS related(Google sana-sini+youtube)
 ZCZC W01 120 L11 Assignment 
-ZCZC W01 5 L00 General Log
+ZCZC W01  05 L00 General Log
 
 
 
