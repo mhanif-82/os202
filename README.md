@@ -7,6 +7,7 @@
 * [Week 01](W01/)
 * [Week 02](W02/)
 * [Week 03](W03/)
+* [Week 04](W04/)
 
 https://mhanif-82.github.io/os202/
 
