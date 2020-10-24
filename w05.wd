@@ -1,0 +1,46 @@
+---
+permalink: /W05/
+---
+[HOME](../)
+
+<br>
+# Top 10 List of Week 05
+
+1. [Virtual Memory](https://searchstorage.techtarget.com/definition/virtual-memory<br>
+virtual memory is a memory management technique that provides an "idealized abstraction of the storage resources that are actually available on a given machine" which "creates the illusion to users of a very large memory"
+
+2. [Virtual Adress Space](https://docs.microsoft.com/en-us/windows/win32/memory/virtual-address-space)<br>
+In computing, a virtual address space (VAS) or address space is the set of ranges of virtual addresses that an operating system makes available to a process. The range of virtual addresses usually starts at a low address and can extend to the highest address allowed by the computer's instruction set architecture and supported by the operating system's pointer size implementation, which can be 4 bytes for 32-bit or 8 bytes for 64-bit OS versions. 
+This provides several benefits, one of which is security through process isolation assuming each process is given a separate address space.
+
+3. [Demand Paging](http://ftp.gunadarma.ac.id/linux/docs/v06/Kuliah/SistemOperasi/BUKU/SistemOperasi-4.X-2/ch05s02.html)<br>
+ demand paging (as opposed to anticipatory paging) is a method of virtual memory management. In a system that uses demand paging, the operating system copies a disk page into physical memory only if an attempt is made to access it and that page is not already in memory (i.e., if a page fault occurs). It follows that a process begins execution with none of its pages in physical memory, and many page faults will occur until most of a process's working set of pages are located in physical memory. This is an example of a lazy loading technique.
+
+4. [Paging ](https://wiki.osdev.org/Paging)<br>
+Paging is a system which allows each process to see a full virtual address space, without actually requiring the full amount of physical memory to be available or present. 32-bit x86 processors support 32-bit virtual addresses and 4-GiB virtual address spaces, and current 64-bit processors support 48-bit virtual addressing and 256-TiB virtual address spaces. Intel has released documentation for a planned extension to 57-bit virtual addressing and 128-PiB virtual address spaces. Currently, implementations of x86-64 have a limit of between 4 GiB and 256 TiB of physical address space (and an architectural limit of 4 PiB of physical address space).
+
+5. [COW](https://www.geeksforgeeks.org/copy-on-write/)<br>
+Copy on Write or simply COW is a resource management technique. One of its main use is in the implementation of the fork system call in which it shares the virtual memory(pages) of the OS.
+In UNIX like OS, fork() system call creates a duplicate process of the parent process which is called as the child process.
+The idea behind a copy-on-write is that when a parent process creates a child process then both of these processes initially will share the same pages in memory and these shared pages will be marked as copy-on-write which means that if any of these processes will try to modify the shared pages then only a copy of these pages will be created and the modifications will be done on the copy of pages by that process and thus not affecting the other process.
+
+6. [Virtual memory but more](https://www.tutorialspoint.com/operating_system/os_virtual_memory.htm)<br>
+This is site explain about virtual memory but i foun better one and explain a lot of things. 
+
+7. [Allocation of frames in Operating System](https://www.geeksforgeeks.org/operating-system-allocation-frames/)<br>
+Frame allocation algorithms are used if you have multiple processes; it helps decide how many frames to allocate to each process. The first reason is, as less number of frames are allocated, there is an increase in the page fault ratio, decreasing the performance of the execution of the process.
+
+8. [Fixed Partitioning](https://www.javatpoint.com/os-fixed-partitioning)<br>
+In this technique, the main memory is divided into partitions of equal or different sizes. The operating system always resides in the first partition while the other partitions can be used to store user processes. The memory is assigned to the processes in contiguous way.<br>
+
+In fixed partitioning,<br>
+
+  - The partitions cannot overlap.
+  - A process must be contiguously present in a partition for the execution.
+There are various cons of using this technique.<br>
+
+9. [NUMA](http://www.techplayon.com/what-is-numa-non-uniform-memory-access/)<br>
+Non-Uniform Memory Access is a computer memory design used in multiprocessing, where the memory access time depends on the memory location relative to the processor. Under NUMA, a processor can access its own local memory faster than non-local memory
+
+10. [Thrashing](https://www.geeksforgeeks.org/techniques-to-handle-thrashing/)<br>
+Thrashing is a condition or a situation when the system is spending a major portion of its time in servicing the page faults, but the actual processing done is very negligible.
