@@ -72,4 +72,9 @@ ZCZC W05  15 L17 Assignment #7
 ZCZC W05  45 L18 Assignment #8
 ZCZC W05  20 L19 Assignment #9
 ZCZC W05  100 L05 GSGS related
-ZCZC W04  10 L00 General Log
+ZCZC W05  10 L00 General Log
+ZCZC W06 120 L02 Zoom Related
+ZCZC W06 200 L05 Gsgs
+ZCZC W06 120 L07 Doing Demo and Doin task
+ZCZC W05 10 L00 General Log
+
