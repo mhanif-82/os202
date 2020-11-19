@@ -76,5 +76,17 @@ ZCZC W05  10 L00 General Log
 ZCZC W06 120 L02 Zoom Related
 ZCZC W06 200 L05 Gsgs
 ZCZC W06 120 L07 Doing Demo and Doin task
-ZCZC W05 10 L00 General Log
+ZCZC W06 10 L00 General Log
+ZCZC W07 120 L02 ZOOM related
+ZCZC W07  60 L11 Assignment #1
+ZCZC W07  60 L12 Assignment #2
+ZCZC W07  15 L13 Assignment #3
+ZCZC W07  10 L14 Assignment #4
+ZCZC W07  35 L15 Assignment #5
+ZCZC W07  15 L16 Assignment #6
+ZCZC W07  15 L17 Assignment #7
+ZCZC W07  45 L18 Assignment #8
+ZCZC W07  20 L19 Assignment #9
+ZCZC W07  200 L05 GSGS related
+ZCZC W07  10 L00 General Log
 
