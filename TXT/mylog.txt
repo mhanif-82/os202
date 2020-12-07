@@ -101,4 +101,8 @@ ZCZC W08  45 L18 Assignment #8
 ZCZC W08  20 L19 Assignment #9
 ZCZC W08  250 L05 GSGS related
 ZCZC W08  10 L00 General Log
+ZCZC W06 120 L02 Zoom Related
+ZCZC W06 500 L05 Gsgs
+ZCZC W06 200 L07 Doing Demo and Doin task
+ZCZC W06 10 L00 General Log
 
